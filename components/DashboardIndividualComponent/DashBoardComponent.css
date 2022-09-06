@@ -1,0 +1,51 @@
+.dashboard_card {
+  width: 55%;
+  height: 10.4rem;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  padding: 8px 0;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  background-color: #f0f0f0;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.dashboard_card:hover {
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  background-color: #d3e0f9;
+  transform: scale(1.1);
+}
+.card_icon {
+  width: 50%;
+  height: 50%;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+}
+.card_count {
+  width: 60%;
+  height: 20%;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-size: 18px;
+}
+.card_name {
+  width: 90%;
+  height: 30%;
+  font-size: 20px;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #151e2b;
+}

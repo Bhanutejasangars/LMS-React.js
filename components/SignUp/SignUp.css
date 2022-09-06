@@ -1,0 +1,42 @@
+.signup-container {
+  display: flex;
+  justify-content: center;
+  height: 88vh;
+  width: 100%;
+  background-color: #fff;
+  color: #444;
+  padding-top: 25px;
+  margin-top: 5rem;
+}
+.form_container {
+  height: fit-content;
+  padding: 25px;
+  border-radius: 10px;
+  background-color: #f0f0f0;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  animation: slideFromRight ease-out 1s;
+}
+@keyframes slideFromRight {
+  0% {
+    transform: translateX(30rem);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.heading-text {
+  color: #151e2b;
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Heading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
